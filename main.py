@@ -1,4 +1,6 @@
 from side import helloWorld
-
+from helper import superPrint
+#Hello World!
 myWorld = helloWorld()
-print(myWorld.showText())
+myText = myWorld.showText()
+superPrint(myText)
